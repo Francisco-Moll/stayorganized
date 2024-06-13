@@ -1,0 +1,73 @@
+.gen_content {
+    margin: 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    background-image: url(../images/paper.jpg);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: 150%;
+    padding: 0;
+    margin: 0;
+    margin-top: 75px;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+.textbox {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px
+}
+
+.panel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    flex: 1;
+}
+
+.pb_txt, 
+.pb_img {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.pb_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.pb_l {
+    margin-right: 5px;
+}
+
+.pb_r {
+    margin-left: 5px;
+}
+
+#img1,
+#img2 {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
